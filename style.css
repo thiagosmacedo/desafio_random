@@ -7,7 +7,8 @@
 }
 
 body {
-    background: rgb(60, 57, 57);
+    background: linear-gradient(90deg, #66666f, #3a373d);
+    /*background: rgb(60, 57, 57);*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,11 +16,20 @@ body {
     min-height: 100vh;
 }
 
-.logo-topo{
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.logo-topo {
     margin: 62px auto 45px;
     width: 587px;
     height: 374px;
-    
+
 }
 
 h4 {
@@ -36,22 +46,35 @@ div {
 }
 
 
-.minimo, .maximo {
-    background-color: #FFFFFF40;
+.minimo {
+    background-color:gainsboro;
     border-radius: 14px;
-    border: 1px solid #FFFFFF33;
+    border: 2px solid #e1141433;
     width: 282px;
     height: 68px;
     padding-left: 20px;
     margin-right: 62px;
     font-size: 40px;
-    font-weight: 500;
-    color: #b1aaaa;
-
+    font-weight: 550;
+    color: grey
 }
 
+.maximo {
+    background-color:gainsboro;
+    border-radius: 14px;
+    border: 2px solid #e1141433;
+    width: 282px;
+    height: 68px;
+    padding-left: 20px;
+    
+    font-size: 40px;
+    font-weight: 550;
+    color: grey
+}
+
+
 button {
-    background: orange;
+    background: linear-gradient(90deg, #504c8e, #a977d4);
     border-radius: 10px;
     border: none;
     width: 300px;
@@ -64,20 +87,21 @@ button {
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     opacity: .9;
 }
 
-button:active{
+button:active {
     opacity: .7;
 
 }
 
-#winner{
-    font-size: 68px;
+#winner {
+    font-size: 72px;
     font-weight: 700;
     line-height: 2.5px;
     text-align: center;
     color: #FFFFFF;
     margin-top: 55px;
+
 }
