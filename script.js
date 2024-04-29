@@ -5,7 +5,7 @@ function generateNumbers() {
   const result = Math.floor(Math.random() * (max - min + 1)) + min;
   const alerta = document.getElementById("winner")
 
-  alerta.innerHTML = result
+  alerta.innerHTML = "Número " + result 
 
   //console.log(result);
 }

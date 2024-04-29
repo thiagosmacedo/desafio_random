@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, #66666f, #3a373d);
+    background: linear-gradient(90deg, #66666f, #7b6a8c);
     /*background: rgb(60, 57, 57);*/
     display: flex;
     align-items: center;
@@ -97,11 +97,11 @@ button:active {
 }
 
 #winner {
-    font-size: 72px;
+    font-size: 77px;
     font-weight: 700;
     line-height: 2.5px;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 55px;
+    margin-top: 60px;
 
 }
